@@ -18,4 +18,5 @@ setup(
     license='MIT',
     packages=find_packages(),
     install_requires=['bs4', ],
+    entry_points={'console_scripts':['ubuntunews=OMG.brain:access']}
 )
