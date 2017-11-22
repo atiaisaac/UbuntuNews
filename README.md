@@ -15,5 +15,5 @@ This will run the script. Note that you will need an active internet connection 
 A cronjob can also be set to run the code at desired intervals
 
 # Uninstallation
-`pip3 uninstall ubuntunews` will uninstall the script. Remember to disable the cronjob (if any).
+`pip3 uninstall OMG` will uninstall the script. Remember to disable the cronjob (if any).
 
