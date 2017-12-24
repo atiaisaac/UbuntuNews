@@ -1,6 +1,6 @@
 # UbuntuNews
 Get news about your favourite Linux distro-ubuntu and it's flavours from omgubuntu.co.uk   
-Python3.5 is suppoerted but it's not supported for python2.7.
+Python3.6 is suppoerted but it's not supported for python2.7.
 Here is a screenshot of the result produced on ubuntu 17.10 running gnome on xorg.  
 ![screenshot1](https://user-images.githubusercontent.com/29587987/33105603-d90800ae-cf25-11e7-974e-091c094d5376.png)  
 
