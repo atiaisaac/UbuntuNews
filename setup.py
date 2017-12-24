@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='ubuntu_news',
+    name='ubuntunews',
     version='1.0',
     author='Isaac Atia',
     author_email='atiaisaac007@gmail.com',
@@ -14,9 +14,10 @@ setup(
         'Development Status::3-Alpha',
         'Intended Audience::Developers',
         'License::OSI Approved::MIT License',
-        'Programming Language::Python::3.5'],
+        'Programming Language::Python::3.6'],
     license='MIT',
     packages=find_packages(),
     install_requires=['bs4', ],
-    entry_points={'console_scripts':['ubuntunews=OMG.brain:access']}
+    entry_points={'console_scripts': ['ubuntunews=ubuntunews.brain:access']},
+    include_package_data=True
 )
