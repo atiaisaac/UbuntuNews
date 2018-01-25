@@ -17,7 +17,7 @@ setup(
         'Programming Language::Python::3.6'],
     license='MIT',
     packages=find_packages(),
-    install_requires=['bs4', 'python3-gi'],
+    install_requires=['bs4', 'gi>=1'],
     entry_points={'console_scripts': ['ubuntunews=ubuntunews.brain:access']},
     include_package_data=True
 )
